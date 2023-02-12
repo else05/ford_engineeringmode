@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height" android:foreground="@drawable/button_ripple_pressed">
+    <TextView android:textSize="@dimen/main_content_key_size" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/item_two_tv_key" android:layout_width="wrap_content" android:layout_height="@dimen/listview_item_height"/>
+    <TextView android:textSize="@dimen/main_content_value_size" android:textColor="@color/text_value_color" android:gravity="center" android:id="@+id/item_two_tv_value" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/listview_item_value_margin_key" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

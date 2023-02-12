@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/color_gray" android:layout_width="match_parent" android:layout_height="90px">
+    <TextView android:textSize="30px" android:textColor="@color/color_white" android:gravity="center_vertical" android:id="@+id/tv_tc_title" android:layout_width="wrap_content" android:layout_height="90px" android:layout_margin="10px" android:layout_marginLeft="20px" android:text=""/>
+    <Switch android:textSize="30px" android:textColor="@color/color_white" android:gravity="center_vertical" android:id="@+id/tb_tc_checked" android:background="@drawable/broder_check_bg" android:layout_width="wrap_content" android:layout_height="90px" android:layout_margin="10px" android:layout_marginRight="20px" android:textOn="NO" android:textOff="OFF" android:layout_alignParentRight="true"/>
+</RelativeLayout>

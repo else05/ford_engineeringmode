@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height" android:foreground="@drawable/button_ripple_pressed">
+    <TextView android:textSize="@dimen/main_content_size" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/item_one_tv_content" android:layout_width="wrap_content" android:layout_height="@dimen/listview_item_height"/>
+    <TextView android:background="@drawable/arrow_right_linken" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

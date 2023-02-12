@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rl_ts_hint" android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:id="@+id/tv_touch_screen_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/touch_screen_title"/>
+            <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:id="@+id/tv_touch_screen_content_u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:text="@string/touch_screen_content_u"/>
+            <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:id="@+id/tv_touch_screen_content_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:text="@string/touch_screen_content_d"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.yfve.tools.TouchView android:id="@+id/touchView" android:background="@color/color_gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="50px" android:textColor="@color/color_red_exit" android:id="@+id/bt_ts_cancel" android:background="@drawable/broder_style" android:paddingLeft="20px" android:paddingRight="20px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

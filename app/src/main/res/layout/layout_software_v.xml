@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/main_return_w" android:layout_marginRight="@dimen/main_return_w">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_model"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_software_v_model" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_android"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_software_v_version_release" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_kernel"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_software_v_kernel_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_os_version"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_software_v_version_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_mcu"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/mcu_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_screen"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/screen_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_apk"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/apk_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_tcu_esn"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_tcu_esn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_car_fd02"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_ahu_fd02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:layout_gravity="center_vertical" android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_boot0"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_spl0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_boot1"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_spl1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_iccid"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_iccid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_4g_version"/>
+                <TextView android:textSize="@dimen/main_content_size" android:textColor="@color/text_value_color" android:layout_gravity="center_vertical" android:id="@+id/tv_4g_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/listview_item_height"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_data_show" android:background="@drawable/broder_check_bg" android:layout_width="wrap_content" android:layout_height="@dimen/phone_s_s_title_h" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/phone_ss_title_margin" android:text="Current Signal State: "/>
+        <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:gravity="center_vertical" android:id="@+id/tv_pss_state" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/phone_ss_title_margin"/>
+        <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/phone_ss_title_margin" android:text="Value: "/>
+        <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:gravity="center_vertical" android:id="@+id/tv_pss_value" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/phone_ss_title_margin" android:layout_marginRight="40px"/>
+        <RelativeLayout android:layout_gravity="center_vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="80px" android:layout_marginRight="40px">
+            <TextView android:id="@+id/tv_pss_signal1" android:background="@color/color_white" android:layout_width="5px" android:layout_height="15px" android:layout_alignParentBottom="true"/>
+            <TextView android:id="@+id/tv_pss_signal2" android:background="@color/color_white" android:layout_width="5px" android:layout_height="30px" android:layout_marginLeft="5px" android:layout_toRightOf="@+id/tv_pss_signal1" android:layout_alignParentBottom="true"/>
+            <TextView android:id="@+id/tv_pss_signal3" android:background="@color/color_white" android:layout_width="5px" android:layout_height="45px" android:layout_marginLeft="5px" android:layout_toRightOf="@+id/tv_pss_signal2" android:layout_alignParentBottom="true"/>
+            <TextView android:id="@+id/tv_pss_signal4" android:background="@color/color_white" android:layout_width="5px" android:layout_height="60px" android:layout_marginLeft="5px" android:layout_toRightOf="@+id/tv_pss_signal3" android:layout_alignParentBottom="true"/>
+            <TextView android:id="@+id/tv_pss_signal5" android:background="@color/color_white" android:layout_width="5px" android:layout_height="75px" android:layout_marginLeft="5px" android:layout_toRightOf="@+id/tv_pss_signal4" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.github.mikephil.charting.charts.LineChart android:id="@+id/lineChart_pss" android:background="@color/color_white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="60px" android:layout_marginTop="50px" android:layout_below="@+id/ll_data_show"/>
+</RelativeLayout>

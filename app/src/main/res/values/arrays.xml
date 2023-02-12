@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="conf_list">
+        <item>MODEL_VENDOR:</item>
+        <item>MODEL_YEAR_VENDOR:</item>
+        <item>BODY_STYLE:</item>
+        <item>SERIES:</item>
+        <item>COLOR:</item>
+        <item>ANIMATION:</item>
+        <item>HMI:</item>
+        <item>DISPLAY_VARIANTS:</item>
+        <item>SWC:</item>
+        <item>EFP:</item>
+        <item>REAR_EFP:</item>
+        <item>WACM:</item>
+        <item>AMBIENT_LIGHT:</item>
+        <item>MC_SEAT:</item>
+        <item>TCS:</item>
+        <item>TCU:</item>
+        <item>PDC_HMI:</item>
+        <item>PDC_RVC:</item>
+        <item>360_CAMERA:</item>
+        <item>APA:</item>
+        <item>CTA:</item>
+        <item>MT_OR_AT:</item>
+        <item>CLIMATE_DOMAIN:</item>
+        <item>REAR_HVAC:</item>
+        <item>HEAT_COOL_SEAT:</item>
+        <item>HEATED_SW:</item>
+        <item>FRESH_AIR_CABIN:</item>
+        <item>FANSPEED_VR:</item>
+        <item>LIST_BROWSER:</item>
+        <item>GYRO:</item>
+        <item>MYKEY:</item>
+        <item>LOW_FUEL :</item>
+        <item>FUEL_TYPE:</item>
+        <item>ILLUMINATION:</item>
+        <item>CGEA_VERSION:</item>
+        <item>APNURL:</item>
+        <item>TPMS:</item>
+        <item>BT_TURNING:</item>
+        <item>EXENDED_PLAY:</item>
+        <item>SMART_DSP:</item>
+        <item>SOUND_MODE:</item>
+        <item>QUANTUM_LOGIC_IMMERSION:</item>
+        <item>QUANTUM_LOGIC_SURROUNDING:</item>
+        <item>THX:</item>
+        <item>REVEL:</item>
+        <item>ANC_OR_ESE:</item>
+        <item>FRONT_SPEAKER:</item>
+        <item>REAR_SPEAKER:</item>
+        <item>FRONT_SPK_DETECT:</item>
+        <item>REAR_SPK_DETECT:</item>
+        <item>CHIME_STRATEGY:</item>
+        <item>TURN_CHIMES:</item>
+        <item>FRONT_TWEETER:</item>
+        <item>REAR_TWEETER:</item>
+        <item>ANC_LEFT_FRONT_MIX:</item>
+        <item>ANC_RIGHT_FRONT_MIX:</item>
+        <item>ANC_REAR_MIX:</item>
+        <item>ENABLE_OCCU_PHONE:</item>
+        <item>ANTENNA_TEST_VALUE:</item>
+        <item>AM_ANTENNA_TEST:</item>
+        <item>GAIN_ADJUST:</item>
+        <item>EQ:</item>
+        <item>FM_SEEK_SENSITIVY:</item>
+        <item>LOW_MODE_AM:</item>
+        <item>HIGH_MODE_AM:</item>
+        <item>AM_PRESET1:</item>
+        <item>AM_PRESET2:</item>
+        <item>AM_PRESET3:</item>
+        <item>AM_PRESET4:</item>
+        <item>AM_PRESET5:</item>
+        <item>AM_PRESET6:</item>
+        <item>DSP_INNER_VERSION:</item>
+        <item>HEATED_WIND:</item>
+        <item>TSR:</item>
+        <item>PHONE_LEVEL:</item>
+        <item>A2B:</item>
+        <item>FM_PRESET1:</item>
+        <item>FM_PRESET2:</item>
+        <item>FM_PRESET3:</item>
+        <item>FM_PRESET4:</item>
+        <item>FM_PRESET5:</item>
+        <item>FM_PRESET6:</item>
+        <item>FM_PRESET7:</item>
+        <item>FM_PRESET8:</item>
+        <item>FM_PRESET9:</item>
+        <item>FM_PRESET10:</item>
+        <item>FM_PRESET11:</item>
+        <item>FM_PRESET12:</item>
+        <item>LIN_VERSION:</item>
+        <item>4G_CONFIG:</item>
+    </array>
+    <array name="conf_list_p2">
+        <item>MODEL_VENDOR:</item>
+        <item>MODEL_YEAR_VENDOR:</item>
+        <item>BODY_STYLE:</item>
+        <item>SERIES:</item>
+        <item>COLOR:</item>
+        <item>ANIMATION:</item>
+        <item>HMI:</item>
+        <item>DISPLAY_VARIANTS:</item>
+        <item>SWC:</item>
+        <item>EFP:</item>
+        <item>REAR_EFP:</item>
+        <item>WACM:</item>
+        <item>AMBIENT_LIGHT:</item>
+        <item>MC_SEAT:</item>
+        <item>TCS:</item>
+        <item>TCU:</item>
+        <item>PDC_HMI:</item>
+        <item>PDC_RVC:</item>
+        <item>360_CAMERA:</item>
+        <item>APA:</item>
+        <item>CTA:</item>
+        <item>MT_OR_AT:</item>
+        <item>CLIMATE_DOMAIN:</item>
+        <item>REAR_HVAC:</item>
+        <item>HEAT_COOL_SEAT:</item>
+        <item>HEATED_SW:</item>
+        <item>FRESH_AIR_CABIN:</item>
+        <item>FANSPEED_VR:</item>
+        <item>LIST_BROWSER:</item>
+        <item>GYRO:</item>
+        <item>MYKEY:</item>
+        <item>LOW_FUEL :</item>
+        <item>FUEL_TYPE:</item>
+        <item>ILLUMINATION:</item>
+        <item>CGEA_VERSION:</item>
+        <item>APNURL:</item>
+        <item>TPMS:</item>
+        <item>BT_TURNING:</item>
+        <item>EXENDED_PLAY:</item>
+        <item>SMART_DSP:</item>
+        <item>SOUND_MODE:</item>
+        <item>QUANTUM_LOGIC_IMMERSION:</item>
+        <item>QUANTUM_LOGIC_SURROUNDING:</item>
+        <item>THX:</item>
+        <item>REVEL:</item>
+        <item>ANC_OR_ESE:</item>
+        <item>FRONT_SPEAKER:</item>
+        <item>REAR_SPEAKER:</item>
+        <item>FRONT_SPK_DETECT:</item>
+        <item>REAR_SPK_DETECT:</item>
+        <item>CHIME_STRATEGY:</item>
+        <item>TURN_CHIMES:</item>
+        <item>FRONT_TWEETER:</item>
+        <item>REAR_TWEETER:</item>
+        <item>ANC_LEFT_FRONT_MIX:</item>
+        <item>ANC_RIGHT_FRONT_MIX:</item>
+        <item>ANC_REAR_MIX:</item>
+        <item>ENABLE_OCCU_PHONE:</item>
+        <item>ANTENNA_TEST_VALUE:</item>
+        <item>AM_ANTENNA_TEST:</item>
+        <item>GAIN_ADJUST:</item>
+        <item>EQ:</item>
+        <item>FM_SEEK_SENSITIVY:</item>
+        <item>LOW_MODE_AM:</item>
+        <item>HIGH_MODE_AM:</item>
+        <item>AM_PRESET1:</item>
+        <item>AM_PRESET2:</item>
+        <item>AM_PRESET3:</item>
+        <item>AM_PRESET4:</item>
+        <item>AM_PRESET5:</item>
+        <item>AM_PRESET6:</item>
+        <item>DSP_INNER_VERSION:</item>
+        <item>HEATED_WIND:</item>
+        <item>TSR:</item>
+        <item>PHONE_LEVEL:</item>
+        <item>A2B:</item>
+        <item>FM_PRESET1:</item>
+        <item>FM_PRESET2:</item>
+        <item>FM_PRESET3:</item>
+        <item>FM_PRESET4:</item>
+        <item>FM_PRESET5:</item>
+        <item>FM_PRESET6:</item>
+        <item>FM_PRESET7:</item>
+        <item>FM_PRESET8:</item>
+        <item>FM_PRESET9:</item>
+        <item>FM_PRESET10:</item>
+        <item>FM_PRESET11:</item>
+        <item>FM_PRESET12:</item>
+        <item>LIN_VERSION:</item>
+        <item>ANC_OR_ESE_EQ_CARLINE:</item>
+        <item>ANC_OR_ESE_BODY_STYLE:</item>
+        <item>ANC_OR_ESE_SPEAK_CONFIG:</item>
+        <item>ANC_OR_ESE_BRANDING:</item>
+        <item>ANC_OR_ESE_SWP:</item>
+        <item>ANC_OR_ESE_EQ_SPECIAL_MODES:</item>
+        <item>ANC_OR_ESE_ENGINE:</item>
+        <item>ANC_OR_ESE_GEARBOX:</item>
+        <item>AES_NO_OVERRIDE:</item>
+        <item>AES_OVERRIDE:</item>
+        <item>ACC_MENU:</item>
+        <item>ADPT_HEAD_LAMP_CONTROL:</item>
+        <item>ADJ_SPEED_LIMITER_DEVICE:</item>
+        <item>ADVANCETRAC_CONTROL:</item>
+        <item>AUTO_HIGH_BEAM_CONTROL:</item>
+        <item>AUTOLAMP_DELAY:</item>
+        <item>AUTOLOCK_CONTROL:</item>
+        <item>ADPT_HEAD_LAMP_TRAFFIC:</item>
+        <item>AUTO_RELOCK:</item>
+        <item>AUTOUNLOCK_CONTROL:</item>
+        <item>CITY_SAFETY:</item>
+        <item>APPROACH_DETECTION_CONTROL:</item>
+        <item>COURTESY_WIPE_AFTER_WASH:</item>
+        <item>DRIVER_ALERT_SYSTEM:</item>
+        <item>EASY_ENTRY_EXIT:</item>
+        <item>FORWARD_COLLISION_WARNING:</item>
+        <item>FUEL_OPERATED_HEATER:</item>
+        <item>WINDOWS_REMOTE_OPEN:</item>
+        <item>WINDOWS_REMOTE_CLOSE:</item>
+        <item>DAYTIME_RUNLAMP_CONTROL:</item>
+        <item>TEMPORARY_MOBILITY_KIT:</item>
+        <item>MIRRORS_AUTOFOLD:</item>
+        <item>MIRRORS_REVERSE_TILT:</item>
+        <item>DO_NOT_DISTURB:</item>
+        <item>FUEL_OPERATED_PARK_HEATER:</item>
+        <item>ONE_OR_TWO_STAGE_UNLOCKING:</item>
+        <item>PERIMETER_ALARM_CONTROL:</item>
+        <item>POWER_LIFTGATE_CONTROL:</item>
+        <item>RRGW:</item>
+        <item>RS_CLIMATE_SETTINGS:</item>
+        <item>RS_DRIVER_SEAT:</item>
+        <item>RS_FEATURE:</item>
+        <item>RS_PASSENGER_SEAT:</item>
+        <item>RS_REAR_DEFROST:</item>
+        <item>RS_STEERING_WHEEL:</item>
+        <item>BLINDSPOT:</item>
+        <item>INTLIG_SPEED_ASSISTANCE:</item>
+        <item>TRAILER_SWAY:</item>
+        <item>PRECOLLISION:</item>
+        <item>INTLIG_ACCESS_MENU:</item>
+        <item>SILENT_MODE_CONTROL:</item>
+        <item>TPMS_RESET:</item>
+        <item>AUTO_HOLD:</item>
+        <item>HILL_START_ASSIST:</item>
+        <item>MYKEY_MENU:</item>
+        <item>RAIN_SENSOR:</item>
+        <item>FCW_BRAKING_ONOFF:</item>
+        <item>LOCKING_FDB_AUDIBLE:</item>
+        <item>LOCKING_FDB_VISUAL:</item>
+        <item>EVA_STEERING_ASSIST:</item>
+        <item>LANE_ASSIST_HAPTIC_INSITY:</item>
+        <item>INTLIG_ADPT_CRUISE_CONTROL:</item>
+        <item>ADPT_HEADLAMPS_FEATURE:</item>
+        <item>LANE_CHANGE_ASSIST:</item>
+        <item>LANE_KEEPING_SENTIVTY:</item>
+        <item>ADVTRAC_HARD_BUTTON_CONTROL:</item>
+        <item>TRACTION_CONTROL:</item>
+        <item>ADAPTIVE_CRUISE:</item>
+        <item>TSR_NCAP_ADAPTATIONS:</item>
+        <item>TSR_OVERSPEED_CHIME:</item>
+        <item>TWO_HAUL:</item>
+        <item>TRAILER_BLIND_SPOT:</item>
+        <item>WRONG_WAY_ALERT:</item>
+        <item>HILL_DESCENT_CONTROL:</item>
+        <item>REAR_BRAKE_ASSIST:</item>
+        <item>EV_AND_MODE:</item>
+        <item>RUNING_BOARD_CONTROL:</item>
+        <item>PARK_LOCK_CONTROL_ALLW:</item>
+        <item>AUTO_START_STOP:</item>
+        <item>PERIM_ALARM_GUARD_REMINDER:</item>
+        <item>TRAFFIC_SIGN_RECOG:</item>
+        <item>TPMS_BY_LOCATION:</item>
+        <item>TPMS_PLA_PRESSURE_DISPLAY:</item>
+        <item>CENTERSTACK_SETTING:</item>
+        <item>PREDICTIVE_LIGHTS:</item>
+        <item>LANEA_NCAP_AID:</item>
+        <item>LANEA_NCAP_ALERT:</item>
+        <item>KEY_FREE:</item>
+        <item>GRADE_ASSIST:</item>
+        <item>ONE_OR_TWO_STAGE_UNLOCK:</item>
+        <item>AUTO_HIGH_BEAM_MENU:</item>
+        <item>AIR_SUSP_SUMA_CONTROL:</item>
+        <item>AIR_SUSP_AUTO_HEIGHT_SUMA:</item>
+        <item>BTT_LITE:</item>
+        <item>PASGER_AIRBAG_SETTINGS:</item>
+        <item>MHEV_START_STOP_THRESHOLD:</item>
+        <item>AIR_SUSP_CARGO_LOADING_SUMA:</item>
+        <item>CLIMATE_AUTO_LEVELS:</item>
+        <item>EV_RANGE_RING:</item>
+        <item>KEYPAD_OR_PAAK:</item>
+        <item>CHARGE_PORT_LOCK:</item>
+        <item>4G_CONFIG:</item>
+    </array>
+    <array name="conf_list_p3">
+        <item>MODEL_VENDOR:</item>
+        <item>MODEL_YEAR_VENDOR:</item>
+        <item>BODY_STYLE:</item>
+        <item>SERIES:</item>
+        <item>COLOR:</item>
+        <item>ANIMATION:</item>
+        <item>HMI:</item>
+        <item>DISPLAY_VARIANTS:</item>
+        <item>SWC:</item>
+        <item>EFP:</item>
+        <item>REAR_EFP:</item>
+        <item>WACM:</item>
+        <item>AMBIENT_LIGHT:</item>
+        <item>MC_SEAT:</item>
+        <item>TCS:</item>
+        <item>TCU:</item>
+        <item>PDC_HMI:</item>
+        <item>PDC_RVC:</item>
+        <item>360_CAMERA:</item>
+        <item>APA:</item>
+        <item>CTA:</item>
+        <item>MT_OR_AT:</item>
+        <item>CLIMATE_DOMAIN:</item>
+        <item>REAR_HVAC:</item>
+        <item>HEAT_COOL_SEAT:</item>
+        <item>HEATED_SW:</item>
+        <item>FRESH_AIR_CABIN:</item>
+        <item>FANSPEED_VR:</item>
+        <item>LIST_BROWSER:</item>
+        <item>GYRO:</item>
+        <item>MYKEY:</item>
+        <item>LOW_FUEL :</item>
+        <item>FUEL_TYPE:</item>
+        <item>ILLUMINATION:</item>
+        <item>CGEA_VERSION:</item>
+        <item>APNURL:</item>
+        <item>TPMS:</item>
+        <item>BT_TURNING:</item>
+        <item>EXENDED_PLAY:</item>
+        <item>SMART_DSP:</item>
+        <item>SOUND_MODE:</item>
+        <item>QUANTUM_LOGIC_IMMERSION:</item>
+        <item>QUANTUM_LOGIC_SURROUNDING:</item>
+        <item>THX:</item>
+        <item>REVEL:</item>
+        <item>ANC_OR_ESE:</item>
+        <item>FRONT_SPEAKER:</item>
+        <item>REAR_SPEAKER:</item>
+        <item>FRONT_SPK_DETECT:</item>
+        <item>REAR_SPK_DETECT:</item>
+        <item>CHIME_STRATEGY:</item>
+        <item>TURN_CHIMES:</item>
+        <item>FRONT_TWEETER:</item>
+        <item>REAR_TWEETER:</item>
+        <item>ANC_LEFT_FRONT_MIX:</item>
+        <item>ANC_RIGHT_FRONT_MIX:</item>
+        <item>ANC_REAR_MIX:</item>
+        <item>ENABLE_OCCU_PHONE:</item>
+        <item>ANTENNA_TEST_VALUE:</item>
+        <item>AM_ANTENNA_TEST:</item>
+        <item>GAIN_ADJUST:</item>
+        <item>EQ:</item>
+        <item>FM_SEEK_SENSITIVY:</item>
+        <item>LOW_MODE_AM:</item>
+        <item>HIGH_MODE_AM:</item>
+        <item>AM_PRESET1:</item>
+        <item>AM_PRESET2:</item>
+        <item>AM_PRESET3:</item>
+        <item>AM_PRESET4:</item>
+        <item>AM_PRESET5:</item>
+        <item>AM_PRESET6:</item>
+        <item>DSP_INNER_VERSION:</item>
+        <item>HEATED_WIND:</item>
+        <item>TSR:</item>
+        <item>PHONE_LEVEL:</item>
+        <item>A2B:</item>
+        <item>FM_PRESET1:</item>
+        <item>FM_PRESET2:</item>
+        <item>FM_PRESET3:</item>
+        <item>FM_PRESET4:</item>
+        <item>FM_PRESET5:</item>
+        <item>FM_PRESET6:</item>
+        <item>FM_PRESET7:</item>
+        <item>FM_PRESET8:</item>
+        <item>FM_PRESET9:</item>
+        <item>FM_PRESET10:</item>
+        <item>FM_PRESET11:</item>
+        <item>FM_PRESET12:</item>
+        <item>LIN_VERSION:</item>
+        <item>4G_CONFIG:</item>
+        <item>INFO_PROGNOSTIC:</item>
+        <item>INFO_DIGITAL_SCENT:</item>
+        <item>INFO_RESERVED1:</item>
+        <item>INFO_RESERVED2:</item>
+        <item>INFO_RESERVED3:</item>
+    </array>
+    <array name="list_em">
+        <item>福特工程模式</item>
+        <item>OS 工程模式</item>
+        <item>问题上报</item>
+        <item>USB升级SOC</item>
+        <item>USB升级MCU</item>
+    </array>
+    <array name="list_em_p2_re">
+        <item>福特工程模式</item>
+        <item>OS 工程模式</item>
+        <item>问题上报</item>
+        <item>USB升级SOC</item>
+    </array>
+    <array name="lv_ahu_entrys">
+        <item>AHU Part Numbers</item>
+        <item>Radio Signal Strength</item>
+        <item>Speaker Walk-Around Test</item>
+        <item>Software Versions</item>
+        <item>Configuration Status</item>
+        <item>Location information</item>
+        <item>Touch panel calibration</item>
+        <item>Touch Screen Activation Test</item>
+        <item>Diaplay Test Pattern</item>
+        <item>RGB Pixel Test</item>
+        <item>Tuner Reception</item>
+        <item>4G Signal Strengths</item>
+        <item>Sensor</item>
+        <item>Gyroscope</item>
+        <item>Bt test mode</item>
+        <item>Wifi Settings</item>
+    </array>
+    <array name="lv_ahu_pn">
+        <item>AHU H/W Part Number:</item>
+        <item>AHU S/W Part Number:</item>
+        <item>AHU Calibration Part Number:</item>
+    </array>
+    <array name="lv_apim_li_title">
+        <item>Time</item>
+        <item>Date</item>
+        <item>Latitude</item>
+        <item>Longitude</item>
+        <item>Heading</item>
+        <item>Altitude (m)</item>
+        <item>H DOP</item>
+        <item>P DOP</item>
+        <item>V DOP</item>
+        <item>Position</item>
+        <item>2D Accuracy</item>
+        <item>3D Accuracy</item>
+        <item>Vehicle Speed</item>
+        <item>Number of Satellites</item>
+        <item>Fix Mode</item>
+        <item>Time to First Fix</item>
+    </array>
+    <array name="lv_apim_pn">
+        <item>AHU Serial Number</item>
+        <item>Vehicle Identification Number</item>
+        <item>Assembly Part Number</item>
+        <item>H/W Part Number</item>
+        <item>CCPU S/W Part Number</item>
+        <item>VMCU S/W Part Number</item>
+        <item>S/W Part Number F10A</item>
+        <item>S/W Part Number F16B</item>
+        <item>S/W Part Number F16C</item>
+    </array>
+    <array name="lv_bd_entrys">
+        <item>AHU Diagnostics</item>
+        <item>DSP Diagnostics</item>
+        <item>SDM Diagnostics</item>
+    </array>
+    <array name="lv_dsp_entrys">
+        <item>DSP Part Numbers</item>
+        <item>Speaker Walk-Around Test</item>
+    </array>
+    <array name="lv_dsp_pn">
+        <item>DSP H/W Part Number:</item>
+    </array>
+    <array name="lv_efpicp_entrys">
+        <item>EFP/ICP Part Numbers</item>
+        <item>Exit Diagnostics</item>
+    </array>
+    <array name="lv_efpicp_pn">
+        <item>ICP H/W Part Numbers</item>
+        <item>ICP S/W Part Numbers</item>
+        <item>ICP Serial Part Number</item>
+        <item>ICP Assembly Part Number</item>
+    </array>
+    <array name="lv_mic_title">
+        <item>Mic Test</item>
+    </array>
+    <array name="lv_radio_entrys">
+        <item>AM Tuner</item>
+        <item>FM Tuner</item>
+        <item>Exit Diagnostics</item>
+    </array>
+    <array name="lv_sd_title">
+        <item>Screen Diagnosis</item>
+    </array>
+    <array name="lv_sdm_entrys">
+        <item>SDM Part Numbers</item>
+    </array>
+    <array name="lv_sdm_pn">
+        <item>SDM Core Assembly Part Number</item>
+    </array>
+    <array name="lv_ts_title">
+        <item>Theme</item>
+        <item>HMI Log Level</item>
+        <item>Enable Test Settings</item>
+        <item>Do Not Disturb</item>
+        <item>Reticle</item>
+        <item>Enable State Machine Logging</item>
+        <item>Enable logs to qt5.log</item>
+        <item>Persist QT5 log settings</item>
+        <item>Enable GNSS Seneor Logging</item>
+        <item>Enable HIP Logging</item>
+        <item>Software Version</item>
+        <item>Calibrate</item>
+        <item>Satellite Position</item>
+        <item>Satellite Signal</item>
+        <item>Satellite Signal History</item>
+        <item>Location Diagnostics</item>
+        <item>Remove Navigation Fault</item>
+        <item>Clear DR Crib</item>
+    </array>
+</resources>

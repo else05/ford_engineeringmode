@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rgb_title"/>
+        <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rgb_margin_l_20" android:text="@string/rgb_content"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/rgb_w_h" android:layout_marginTop="@dimen/rgb_margin_l_20">
+            <ImageView android:id="@+id/iv_rgb_gray" android:background="@color/color_gray" android:clickable="true" android:layout_width="@dimen/rgb_w_h" android:layout_height="@dimen/rgb_w_h"/>
+            <ImageView android:id="@+id/iv_rgb_grid" android:background="@drawable/grid" android:clickable="true" android:layout_width="@dimen/rgb_w_h" android:layout_height="@dimen/rgb_w_h" android:layout_marginLeft="@dimen/rgb_margin_l_20"/>
+            <ImageView android:id="@+id/iv_rgb_center" android:background="@color/color_red_exit" android:clickable="true" android:layout_width="@dimen/rgb_w_h" android:layout_height="@dimen/rgb_w_h" android:layout_marginLeft="@dimen/rgb_margin_l_20"/>
+            <ImageView android:id="@+id/iv_rgb_center_l" android:background="@color/color_black" android:clickable="true" android:layout_width="@dimen/rgb_w_h" android:layout_height="@dimen/rgb_w_h" android:layout_marginLeft="@dimen/rgb_margin_l_20"/>
+            <ImageView android:id="@+id/iv_rgb_center_ll" android:background="@color/color_white" android:clickable="true" android:layout_width="@dimen/rgb_w_h" android:layout_height="@dimen/rgb_w_h" android:layout_marginLeft="@dimen/rgb_margin_l_20"/>
+            <ImageView android:id="@+id/iv_rgb_center_r" android:background="@color/display_color2" android:clickable="true" android:layout_width="@dimen/rgb_w_h" android:layout_height="@dimen/rgb_w_h" android:layout_marginLeft="@dimen/rgb_margin_l_20"/>
+            <ImageView android:id="@+id/iv_rgb_center_rr" android:background="@color/color_blue" android:clickable="true" android:layout_width="@dimen/rgb_w_h" android:layout_height="@dimen/rgb_w_h" android:layout_marginLeft="@dimen/rgb_margin_l_20"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@+id/bt_rgb_show" android:background="@color/color_blue" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

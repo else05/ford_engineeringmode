@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_gyroscope" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gyroscope"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ll_gyroscope_x" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50px">
+            <TextView android:textSize="40px" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X:"/>
+            <TextView android:textSize="40px" android:textColor="@color/color_white" android:id="@+id/tv_gyroscope_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30px" android:text="0"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ll_gyroscope_y" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50px" android:layout_below="@+id/ll_gyroscope_x">
+            <TextView android:textSize="40px" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Y:"/>
+            <TextView android:textSize="40px" android:textColor="@color/color_white" android:id="@+id/tv_gyroscope_y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30px" android:text="0"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ll_gyroscope_z" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50px" android:layout_below="@+id/ll_gyroscope_y">
+            <TextView android:textSize="40px" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Z:"/>
+            <TextView android:textSize="40px" android:textColor="@color/color_white" android:id="@+id/tv_gyroscope_z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30px" android:text="0"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

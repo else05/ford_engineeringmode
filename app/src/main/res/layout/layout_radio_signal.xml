@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/main_return_w" android:layout_marginRight="@dimen/main_return_w">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <RadioGroup android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/listview_item_height">
+                <RadioButton android:textSize="@dimen/main_content_key_size" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@+id/cb_radio_am" android:background="@drawable/broder_change_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio_am"/>
+                <RadioButton android:textSize="@dimen/main_content_key_size" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@+id/cb_radio_fm" android:background="@drawable/broder_change_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/radio_center_value_margin_key" android:text="@string/radio_fm"/>
+            </RadioGroup>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_key_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_radio_left" android:background="@drawable/broder_change_style" android:padding="@dimen/radio_btn_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio_left"/>
+                <TextView android:textSize="@dimen/main_content_key_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_curr_radio_value" android:layout_width="@dimen/radio_value_text_w" android:layout_height="wrap_content" android:text="@string/radio_null"/>
+                <TextView android:textSize="@dimen/main_content_key_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_radio_right" android:background="@drawable/broder_change_style" android:padding="@dimen/radio_btn_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio_right"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/listview_item_height">
+                <TextView android:textSize="@dimen/main_content_key_size" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/listview_item_height" android:text="@string/radio_strong_weak"/>
+                <TextView android:textSize="@dimen/main_content_key_size" android:textColor="@color/color_white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_radio_ss" android:layout_width="wrap_content" android:layout_height="@dimen/listview_item_height" android:text="@string/radio_null"/>
+            </LinearLayout>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

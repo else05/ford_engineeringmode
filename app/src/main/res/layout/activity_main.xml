@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/rl_main_activity" android:background="@drawable/background_ft" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_main_head" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/main_title_margin">
+        <TextView android:textColor="@color/color_red_exit" android:id="@+id/main_bt_em_return" android:background="@drawable/lincoln_ic_back" android:layout_width="@dimen/main_return_w" android:layout_height="@dimen/main_return_h"/>
+        <TextView android:textSize="@dimen/main_title_size" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/main_em_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+    </LinearLayout>
+    <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height" android:layout_below="@+id/ll_main_head"/>
+    <RelativeLayout android:id="@+id/rl_main_window" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ll_main_head"/>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_sensor" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                        <TextView android:textSize="@dimen/main_title_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Accelerometer"/>
+                        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ll_accelerometer_x" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50">
+                            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensor_x"/>
+                            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_accelerometer_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sensor_margin_tv_l30"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ll_accelerometer_y" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:layout_below="@+id/ll_accelerometer_x">
+                            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensor_y"/>
+                            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_accelerometer_y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sensor_margin_tv_l30"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ll_accelerometer_z" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:layout_below="@+id/ll_accelerometer_y">
+                            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensor_z"/>
+                            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_accelerometer_z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sensor_margin_tv_l30"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_gps_longitude" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:layout_below="@+id/ll_sensor" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Longitude:"/>
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_gps_longitude_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30px"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_gps_latitude" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:layout_below="@+id/ll_gps_longitude" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wifi_margin_50" android:text="Latitude:"/>
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_gps_latitude_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30px"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_gps_time" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:layout_below="@+id/ll_gps_latitude" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensor_time"/>
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_gps_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sensor_margin_tv_l30"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_gps_snr_value" android:background="@drawable/broder_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:layout_marginBottom="@dimen/wifi_margin_50" android:text="@string/sensor_satellite_detected" android:layout_below="@+id/ll_gps_time" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

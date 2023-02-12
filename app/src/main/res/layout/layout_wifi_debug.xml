@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/wifi_margin_50">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50">
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ip"/>
+                <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:id="@+id/tv_wifi_ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wifi_margin_10"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:id="@+id/tv_wifi_debug" android:background="@drawable/broder_bt_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:text="@string/wifi_debug"/>
+            <TextView android:textSize="@dimen/wifi_text_size" android:textColor="@color/color_white" android:layout_gravity="center_horizontal" android:id="@+id/tv_wifi_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

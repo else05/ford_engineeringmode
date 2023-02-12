@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rl_mcu_dialog" android:background="@drawable/background_lk" android:layout_width="@dimen/dialog_w" android:layout_height="@dimen/dialog_h">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/dialog_title_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_dialog_title" android:padding="@dimen/dialog_bt_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dl_title_lock"/>
+            <TextView android:textSize="@dimen/dialog_text_size" android:textColor="@color/text_value_color" android:gravity="center" android:id="@+id/tv_dialog_info" android:padding="@dimen/dialog_bt_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dl_title_lock_content"/>
+            <TextView android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/listview_divider_height" android:layout_below="@+id/tv_dialog_info"/>
+            <TextView android:textSize="@dimen/dialog_title_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/bt_dialog_center_cancel" android:padding="@dimen/dialog_bt_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/close"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_margin_50" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/tuner_text_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_up_left_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/text_up"/>
+            <TextView android:textSize="@dimen/tuner_text_value_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_value_left_a" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_w"/>
+            <TextView android:textSize="@dimen/tuner_text_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_down_left_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/text_down"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tuner_margin_l_140">
+            <TextView android:textSize="@dimen/tuner_text_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_up_center_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/text_up"/>
+            <TextView android:textSize="@dimen/tuner_text_value_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_value_center_a" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_w"/>
+            <TextView android:textSize="@dimen/tuner_text_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_down_center_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/text_down"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tuner_margin_l_80">
+            <TextView android:textSize="@dimen/tuner_text_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_up_right_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/text_up"/>
+            <TextView android:textSize="@dimen/tuner_text_value_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_value_right_a" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_w"/>
+            <TextView android:textSize="@dimen/tuner_text_size" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_down_right_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/text_down"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tuner_margin_l_80">
+            <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_update_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_bt_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_bt_update"/>
+            <TextView android:layout_width="@dimen/tuner_text_w" android:layout_height="@dimen/tuner_text_w"/>
+            <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_reset_a" android:background="@drawable/broder_check_bg" android:layout_width="@dimen/tuner_bt_w" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_bt_reset"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:background="@drawable/broder_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/rgb_margin_l_20" android:layout_below="@+id/ll_bt">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/broder_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/rgb_margin_l_20" android:layout_weight="1">
+                <TextView android:textSize="30px" android:textColor="@color/color_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_am_or_fm" android:layout_width="wrap_content" android:layout_height="90px"/>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_s_s"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_ss" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_usn"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_usn" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_wam"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_wam" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_offset"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_offset" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_band_width"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_bw" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_modulation"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_modulation" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_quality"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_quality" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_stereo"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_stereo" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_agc"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_agc" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ll_tuner2" android:background="@drawable/broder_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/rgb_margin_l_20" android:layout_weight="1">
+                <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_am_or_fm2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_fm"/>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner2_on" android:background="@drawable/broder_style" android:layout_width="@dimen/tuner_text_h" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_on"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner2_off" android:background="@drawable/broder_style" android:layout_width="@dimen/tuner_text_h" android:layout_height="@dimen/tuner_text_h" android:layout_marginLeft="50px" android:text="@string/tuner_off"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_pd_status"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_pd_Stauts2" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_s_s"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_ss2" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_usn"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_usn2" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_wam"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_wam2" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h" android:text="@string/tuner_ifbw"/>
+                    <TextView android:textSize="@dimen/wifi_text_size_30" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/tv_tuner_ifbw2" android:layout_width="wrap_content" android:layout_height="@dimen/tuner_text_h"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
